@@ -1,16 +1,16 @@
 {
-  "name": "whatsapp-bot (hermit-md)",
+  "name": "whatsapp-bot (PINKVENOM)",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/Ayodya2007/re-bot-MD",
   "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "12_02_H_E_R_M_I_T_MR_0D5K"
     },
     "SUDO": {
       "description": "admin",
@@ -24,16 +24,16 @@
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
-      "required": true
+      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
-      "required": true
+      "required": false
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -48,22 +48,22 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "🧚ᴘɪɴᴋ<ᴠᴇɴᴏᴍ🧚;🦄Aʏᴏᴅʏᴀ🦄;94772496127;https://telegra.ph/file/4f6930ac781d99e24c4b2.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "B@A;𝛥yodya"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "🧚ᴘɪɴᴋ_ᴠᴇɴᴏᴍ_ᴍᴅ🧚;🎀ᴀʸᵒᵈʸᴀ〠🎀;https://telegra.ph/file/2dae9decf20130a12a72e.mp4"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
   "ERROR_MESSAGE": {
       "description": "get error alert",
